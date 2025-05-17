@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import styles from "../styles/favorite.module.css";
-import { addFav, removeFa } from "../features/MovieSlice";
+import { removeFa } from "../features/MovieSlice";
 function Favorite() {
   const dispatch = useDispatch();
   const favoriteArray = useSelector((state) => state.movie.favoriteArray);
@@ -39,7 +39,7 @@ function Favorite() {
                   {item.release_date === "" ? (
                     <p className={styles.warning}>No data Available</p>
                   ) : (
-                    item.release_date
+                    item.release_date.split("-")[0]
                   )}
                 </div>
                 <span

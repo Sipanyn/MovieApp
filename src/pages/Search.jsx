@@ -60,7 +60,7 @@ function Search() {
                     {item.release_date === "" ? (
                       <p className={styles.warning}>No data Available</p>
                     ) : (
-                      item.release_date
+                      item.release_date.split("-")[0]
                     )}
                   </div>
                   <span

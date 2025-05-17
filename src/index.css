@@ -63,7 +63,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #2980b9; /* Darker blue on hover */
 }
-//////////////////////////////////////
-.selected {
-  fill: red;
-}
