@@ -1,0 +1,48 @@
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.aboutMovie {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 10px 18px;
+  box-shadow: 0 0 2px 1px aliceblue;
+  margin: auto;
+  max-width: 400px;
+  max-height: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+}
+.slider {
+}
+.title {
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+.overview {
+  font-size: smaller;
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Limits to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.vote_average {
+  font-size: small;
+}
+.favorite {
+  cursor: pointer;
+}
