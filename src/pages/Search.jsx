@@ -39,7 +39,7 @@ function Search() {
                     />
                   ) : (
                     <img
-                      src="/Final Cut Pro X New Sticker.jfif"
+                      src="/MovieApp/Final Cut Pro X New Sticker.jfif"
                       alt="No poster"
                     />
                   )}
